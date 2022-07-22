@@ -1,0 +1,7 @@
+@use 'variables';
+@use 'typography';
+
+#sectionPresentation {
+    @extend%sectionPadding;
+}
+

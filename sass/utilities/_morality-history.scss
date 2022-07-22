@@ -1,0 +1,14 @@
+
+@use 'variables';
+@use 'typography';
+
+#sectionMoralityHistory {
+    @extend%sectionPadding;
+    background-color: variables.$color-black;
+    color: variables.$color-green;
+
+}
+
+.imgMorality {
+   width: 50%;
+}

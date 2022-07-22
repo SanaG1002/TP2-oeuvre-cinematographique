@@ -1,0 +1,19 @@
+@use 'variables';
+@use 'typography';
+
+
+#sectionActors {
+    @extend%sectionPadding;
+    background-color: variables.$color-black;
+    color: variables.$color-green;
+}
+
+.cardActor {
+    background-color: variables.$color-red;
+    color: variables.$color-black;
+    width: 100%;
+}
+
+.cardActor__img {
+    height: 230px;
+}

@@ -1,24 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter&display=swap");
+.menuNav__link {
+  text-decoration: none;
+  padding: 20px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.menuNav__link:hover, .menuNav__link:focus {
+  color: black;
+  font-size: 37PX;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menuNav__link {
+  font-family: "Henny Penny", cursive;
+  font-size: 35px;
+  color: black;
+}
+
+.btnType1 {
+  text-decoration: none;
+  font-family: "Ibarra Real Nova", serif;
+  color: #b80d0d;
+  font-size: 22px;
+  border: none;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.btnType1:hover, .btnType1:focus {
+  text-decoration: underline;
+  color: #7f0a0a;
+}
+
+.btnType2 {
+  text-decoration: none;
+  font-family: "Ibarra Real Nova", serif;
+  color: #b80d0d;
+  font-size: 22px;
+  border: 1px solid #b80d0d;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.btnType2:hover, .btnType2:focus {
+  text-decoration: underline;
+  color: #7f0a0a;
+}
+
+#sectionMoralityHistory, #sectionActors, #sectionImgFilm, #sectionPresentation {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 * {
   box-sizing: border-box;
 }
 
-main {
-  font-family: "Roboto", sans-serif;
-  color: red;
-  font-size: 16px;
-  background: url("background-img.jpg");
-  background-size: 100%;
+body {
+  font-family: "Ibarra Real Nova", serif;
+  color: black;
+  font-size: 18px;
+  background-color: #9fccb5;
 }
 
 img {
   max-width: 100%;
 }
 
-header {
-  background-color: black;
-  color: white;
+h2 {
+  color: black;
+  font-family: "Henny Penny", cursive;
+}
+
+.title--green {
+  color: #9fccb5;
+}
+
+.lineStyle {
+  border-bottom: 1px solid #b80d0d;
 }
 
 .logo {
-  width: 30%;
+  width: 200px;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+.sectionBackground1 {
+  background-image: linear-gradient(to top, #9fccb5, #c29c5a);
+}
+
+.menuNav__link {
+  margin: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.nav__btnResponsive {
+  color: black;
+  outline: none;
+}
+
+footer {
+  background: #c29c5a;
+}
+
+.addressInfo__item {
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+}
+
+#sectionImgFilm {
+  background-color: black;
+  color: #9fccb5;
+}
+
+#sectionActors {
+  background-color: black;
+  color: #9fccb5;
+}
+
+.cardActor {
+  background-color: #b80d0d;
+  color: black;
+  width: 100%;
+}
+
+.cardActor__img {
+  height: 230px;
+}
+
+#sectionMoralityHistory {
+  background-color: black;
+  color: #9fccb5;
+}
+
+.imgMorality {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+@use 'variables';
+@use 'typography';
+
+
+#sectionImgFilm {
+    background-color: variables.$color-black;
+    color: variables.$color-green;
+    @extend%sectionPadding;
+}
+

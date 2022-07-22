@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter&display=swap");
+#sectionMoralityHistory {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#sectionMoralityHistory {
+  background-color: black;
+  color: #9fccb5;
+}
+
+.imgMorality {
+  width: 50%;
+}/*# sourceMappingURL=morality-history.css.map */

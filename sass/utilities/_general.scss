@@ -1,23 +1,61 @@
 @use 'variables';
+@use 'typography';
 
 * {
     box-sizing: border-box;
 }
 
-main {
-    font-family: 'Roboto', sans-serif;
-    color: red;
-    font-size: 16px;
-    background: url("background-img.jpg");
-    background-size: 100%;
+body {
+    font-family:variables.$font-fam1;
+    color: variables.$color-black;
+    font-size: 18px;
+    background-color: variables.$color-green;
 }
 
 img {
     max-width: 100%;
 }
 
-header{
-    background-color: black;
-    color: white;
-  }
+h2 {
+    color: variables.$color-black;
+    font-family: variables.$font-fam2;
+}
+
+.title--green {
+    color: variables.$color-green;
+}
+
+.btnType1 {
+    @extend%bodyBtn1;
+  
+    &:hover {
+        @extend%bodyBtn1hover;
+    }
+    
+    &:focus {
+        @extend%bodyBtn1hover;
+    }
+
+}
+
+
+.btnType2 {
+    @extend%bodyBtn2;
+  
+    &:hover {
+        @extend%bodyBtn2hover;
+    }
+    
+    &:focus {
+        @extend%bodyBtn2hover;
+    }
+
+}
+
+.lineStyle {
+    border-bottom: 1px solid variables.$color-red
+}
+
+
+
 

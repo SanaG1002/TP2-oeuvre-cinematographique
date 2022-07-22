@@ -2,6 +2,48 @@
 @use 'typography';
 
 
+
 .logo {
-  width: 30%;
+  width: 200px;
 }
+
+header{
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+.sectionBackground1 {
+  background-image: variables.$color-degrade;
+}
+
+//.sectionBackgroung-img {
+//  background: url("../img/background-img3.jpg");
+ // background-size: cover;
+ // background-position: top;
+ // background-repeat: no-repeat;
+ // width: 100%;
+//}
+
+
+.menuNav__link {
+  @extend%menuNavlink;
+  @extend%font-fam2;
+  margin: 10px;
+  display: flex;
+  align-items: baseline;
+
+  &:hover {
+      @extend%menuNavlinkhover;
+  }
+
+  &:focus {
+    @extend%menuNavlinkhover;
+  }
+}
+
+.nav__btnResponsive {
+  color: black;
+  outline: none;
+}
+

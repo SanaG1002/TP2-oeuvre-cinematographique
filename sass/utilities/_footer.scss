@@ -1,0 +1,12 @@
+@use 'variables';
+@use 'typography';
+
+footer {
+  background: variables.$color-yellow;
+}
+
+.addressInfo__item {
+  color: variables.$color-black;
+  margin: 20px;
+  text-decoration: none;
+}
