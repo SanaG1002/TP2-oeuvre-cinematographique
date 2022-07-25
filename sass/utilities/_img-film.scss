@@ -8,3 +8,26 @@
     @extend%sectionPadding;
 }
 
+.illustrationFilm__img {
+    height: 230px;
+    width: 100%;
+}
+
+.email__btn {
+    background-color: variables.$color-yellow;
+    color: variables.$color-black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+        background-color: variables.$color-yellow2
+    }
+    
+    &:focus {
+        background-color: variables.$color-yellow2;
+    }
+    
+}

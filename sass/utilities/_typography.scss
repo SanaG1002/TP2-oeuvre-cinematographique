@@ -25,7 +25,7 @@
     text-decoration: none;
     font-family: variables.$font-fam1;
     color: variables.$color-red;
-    font-size: 22px;
+    font-size: 25px;
     border: none;
     font-style: italic;
     font-weight: 600;
@@ -36,24 +36,19 @@
     color: variables.$color-red2;
 }
 
-
-%bodyBtn2 {
-    text-decoration: none;
-    font-family: variables.$font-fam1;
-    color: variables.$color-red;
-    font-size: 22px;
-    border: 1px solid variables.$color-red;
-    font-weight: 600;
-    border-radius: 5px;
-}
-
-%bodyBtn2hover {
-    text-decoration: underline;
-    color: variables.$color-red2;
-    
-}
-
 %sectionPadding {
     padding-top: variables.$section-paddingTop;
     padding-bottom: variables.$section-paddingBottom;
+}
+
+%accordionItem {
+    background-color: variables.$color-green;
+    color: variables.$color-black;
+    font-family: variables.$font-fam3;
+}
+
+%accordionItemHover {
+    background-color: variables.$color-yellow;
+    color: variables.$color-black;
+    font-family: variables.$font-fam3;
 }

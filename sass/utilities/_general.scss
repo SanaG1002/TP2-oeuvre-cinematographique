@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family:variables.$font-fam1;
+    font-family:variables.$font-fam3;
     color: variables.$color-black;
     font-size: 18px;
     background-color: variables.$color-green;
@@ -19,7 +19,12 @@ img {
 h2 {
     color: variables.$color-black;
     font-family: variables.$font-fam2;
+    margin-bottom: 30px;
 }
+
+span, h4 {
+    font-style: italic;
+}   
 
 .title--green {
     color: variables.$color-green;
@@ -27,6 +32,7 @@ h2 {
 
 .btnType1 {
     @extend%bodyBtn1;
+    margin: 0;
   
     &:hover {
         @extend%bodyBtn1hover;
@@ -34,28 +40,19 @@ h2 {
     
     &:focus {
         @extend%bodyBtn1hover;
-    }
-
-}
-
-
-.btnType2 {
-    @extend%bodyBtn2;
-  
-    &:hover {
-        @extend%bodyBtn2hover;
-    }
-    
-    &:focus {
-        @extend%bodyBtn2hover;
     }
 
 }
 
 .lineStyle {
-    border-bottom: 1px solid variables.$color-red
+    border: 1px solid variables.$color-yellow;
+    margin-top:100px;
 }
 
+.socialImg__size {
+    width: 40px;
+    height: 40px;
+}
 
 
 

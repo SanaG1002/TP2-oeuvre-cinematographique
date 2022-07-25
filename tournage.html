@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 
 <head>
-  <title>Travail pratique 2 : Oeuvre cinématographique</title>
+  <title>Travail pratique 2 Oeuvre cinématographique : Alice in wanderland</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, maximum-scale=5, user-scalable=yes">
   <link rel="icon" href="favicon.ico">
@@ -12,31 +12,33 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
+
 <body>
   <header>
-    <nav class="navbar navbar-dark navbar-expand-md ">
+    <nav class="navbar navbar-dark navbar-expand-lg sectionBackground1">
       <div class="container-fluid">
-        <div class="d-flex">
+        <div class="d-flex flex-row align-items-center justify-content-between w-100">
+
           <!-- Partie menu : logo -->
           <h1 class="navbar-brand">
-            <img class="logo" src="./img/logo1.png" alt="Logo du film E.T">
+            <img class="logo" src="./img/logo.png" alt="Logo/titre du film Alice in wanderland">
           </h1>
 
           <!-- Partie menu : bouton responsive -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler nav__btnResponsive" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation" style="color: white;">
-            <span class="navbar-toggler-icon" style="color: white;"></span>
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
         </div>
 
         <!-- Partie menu : items du menu -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
             <li>
-              <a class="" href="index.html">Acceuil</a></li>
+              <a class="menuNav__link" href="index.html">Acceuil</a></li>
             <li>
-              <a class="" href="tournage.html">Tournage</a></li>
+              <a class="menuNav__link" href="tournage.html">Tournage</a></li>
           </ul>
         </div>
       </div>
@@ -45,189 +47,195 @@
 
 
   <main>
-    <div class="container">
-      <!-- Partie faits d'hiver :  -->
+    <section id="sectionTransformation">
+      <div class="container">
 
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./img/carrousel3.jpg" class="img-fluid rounded-start" alt="Image caroussel">
+        <!-- Partie faits d'hiver : transformation  -->
+        <div class="row g-0 d-flex flex-column-reverse flex-lg-row align-items-lg-center ">
+          <div class="col-12 col-lg-6 text-center">
+            <img src="./img/img-tournage2.jpg" class="img-fluid rounded-start w-75" alt="Image caroussel">
+          </div>
+          <div class="col-12 col-lg-6 mb-5">
+            <h2 class="title--green">Longue transformation</h2>
+            <p>Si la tête d'Helena Bonham Carter a été retouchée par ordinateur
+              pour paraître deux fois plus grosse sur l'écran que dans la réalité,
+              la comédienne devait néanmoins passer par une longue séance de maquillage :
+              <span> "Cela prenait trois heures, mais j'adore être royale. Le problème,
+                c'est que comme elle n'arrête pas de hurler,
+                je perdais ma voix presque tous les jours vers 10h00... (...)
+                C'était vraiment épuisant toutes ces colères !"</span>, raconte l'actrice.
+            </p>
+            <button type="button" class="btn btnType1">En savoir plus</button>
+          </div>
         </div>
-        <div class="col-md-8">
-          <h5>Card title</h5>
-          <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is
-            a little bit longer.</p>
 
-        </div>
+        <div class="lineStyle"></div>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col"><img src="./img/carrousel1.jpg" alt="" style="width: 300px;margin:10px"></div>
-        <div class="col"><img src="./img/carrousel2.jpg" alt="" style="width: 300px;margin:10px"></div>
-        <div class="col "><img src="./img/carrousel3.jpg" alt="" style="width: 300px;margin:10px"></div>
-      </div>
-      <div class="row">
-        <div class="col"><img src="./img/carrousel2.jpg" alt="" style="width: 300px;margin:10px"></div>
-        <div class="col"><img src="./img/carrousel6.jpg" alt="" style="width: 300px;margin:10px"></div>
-        <div class="col "><img src="./img/carrousel5.jpg" alt="" style="width: 300px;margin:10px"></div>
-      </div>
-    </div>
+    <!-- Image : mosaique  -->
+    <section id="sectionMosaique">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-4 p-2"><img src="./img/img-mosaique/mosaique1.jpg" alt=""></div>
+          <div class="col-6 col-lg-4  p-2"><img src="./img/img-mosaique/mosaique7.jpg" alt=""></div>
+          <div class="col-6 mx-auto d-block col-lg-4  p-2 "><img src="./img/img-mosaique/mosaique3.jpg" alt=""></div>
+        </div>
 
-    <!-- Partie présentation direction artistique : accordéon de présentation -->
-    <div class="container">
-      <h2>Présentation de la direction artistique</h2>
-      <div class="accordion accordion-flush pb-5" id="accordionFlushExample">
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-          </div>
+        <div class="row">
+          <div class="col-6 col-lg-4  p-2"><img src="./img/img-mosaique/mosaique4.jpg" alt=""></div>
+          <div class="col-6 col-lg-4  p-2"><img src="./img/img-mosaique/mosaique9.jpg" alt=""></div>
+          <div class="col-6 mx-auto d-block col-lg-4  p-2 "><img src="./img/img-mosaique/mosaique5.jpg" alt=""></div>
         </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-              filled with some actual content.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-        <div class="accordion-item m-3">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-              happening here in terms of content, but just filling up the space to make it look, at least at first
-              glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
-      </div>
-    </div>
 
+        <div class="lineStyle"></div>
+      </div>
+    </section>
+
+    <!-- Partie présentation direction artistique : accordéon -->
+    <section id="sectionAccordion">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="title--green">Présentation de la direction artistique</h2>
+          <p>Après l’adaptation en long métrage d'animation Alice au pays des merveilles datée de 1951,
+            le studio Disney a mandaté Tim Burton pour réaliser une nouvelle adaptation des romans de Lewis Carroll.
+          </p>
+          <div class="accordion accordion-flush pb-5 " id="accordionFlushExample">
+
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Réalisation
+                    </button>
+                  </h3>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Tim Burton</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Scénario
+                    </button>
+                  </h3>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"> Linda Woolverton</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Musique
+                    </button>
+                  </h3>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Danny Elfman</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Producteurs
+                    </button>
+                  </h3>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Tim Burton, Joe Roth, Jennifer Todd, Suzanne Todd & Richard D. Zanuck
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Costumes
+                    </button>
+                  </h3>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Colleen Atwood</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      Décorateurs
+                    </button>
+                  </h3>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Décorateurs de plateau : Karen O’Hara & Peter Young</p>
+                      <p>Chef décorateur : Robert Stromberg</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                      Supervision effets spéciaux
+                    </button>
+                  </h3>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Michael Dawson & Michael Lantieri</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                      Casting
+                    </button>
+                  </h3>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Susie Figgis</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                      Directeur de la photographie
+                    </button>
+                  </h3>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Dariusz Wolski</div>
+                  </div>
+                </div>
+                <div class="accordion-item m-3">
+                  <h3 class="accordion-header" id="flush-headingTen">
+                    <button class="accordion-button collapsed accordion__item" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                      Montage
+                    </button>
+                  </h3>
+                  <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Chris Lebenzon</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <!-- Partie image et extrait : image et video -->
     <!-- Titre, texte et formulaire courriel -->
@@ -237,21 +245,40 @@
   </main>
 
   <footer>
-    <div class="container-fluid mt-5">
-      <div>
-        <div>
-          <p>tel</p>
-          <p>mail</p>
+    <div class="container">
+      <div class="d-flex justify-content-between pt-4">
+        <div class="d-flex justify-content-between">
+          <address>
+            <a class="addressInfo__item" href="tel:1-800-801-5321">
+              1-800-801-5321</a>
+          </address>
+          <address>
+            <a class="addressInfo__item  addressInfo--margin " href="mailto:agencewebgharianiperron@gmail.com">
+              agencewebgharianiperron@gmail.com
+            </a>
+          </address>
         </div>
-        <p>nom</p>
+
+        <div class="d-flex justify-content-between align-items-baseline">
+          <span>Sana Ghariani</span>
+          <div class="ml-5">
+          <a href="#" target="_blank">
+            <img class="socialImg__size" src="img/facebook-color.png" alt="Icône de Facebook"></a>
+          <a href="#" target="_blank">
+            <img class="socialImg__size" src="img/twitter-color.png" alt="Icône de Twitter"></a>
+          <a href="#" target="_blank">
+            <img class="socialImg__size" src="img/instagram-color.png" alt="Icône d'Instagram"></a>
+        </div>
       </div>
-      <br>
-      <p>
-        CEGEP Trois rivière
-      </p>
 
+      </div>
+     <div class=" footer__line"></div>
+      <div class="d-flex justify-content-between">
+        <p>CEGEP de Trois Rivières</p>
+       
+      </div>
     </div>
-
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

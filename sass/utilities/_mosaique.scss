@@ -2,14 +2,7 @@
 @use 'variables';
 @use 'typography';
 
-#sectionMoralityHistory {
+#sectionMosaique {
     @extend%sectionPadding;
     background-color: variables.$color-black;
-    color: variables.$color-green;
-
-}
-
-.imgMorality {
-   width: 100%;
-   
 }

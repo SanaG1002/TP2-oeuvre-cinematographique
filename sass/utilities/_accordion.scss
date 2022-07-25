@@ -1,0 +1,26 @@
+@use 'variables';
+@use 'typography';
+
+
+
+#sectionAccordion {
+    @extend%sectionPadding;
+    background-color: variables.$color-black;
+    color: variables.$color-green;
+    
+}
+
+.accordion__item {
+    @extend%accordionItem;
+    font-size: 18px;
+    font-weight: 600;
+  
+    &:hover {
+        @extend%accordionItemHover;
+    }
+    
+    &:focus {
+        @extend%accordionItemHover;
+    }
+
+}
